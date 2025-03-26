@@ -1,0 +1,3 @@
+model,r2_score,Mean Squared Error
+Randomforest,0.9260698971067535,5307.576826585301
+Randomforest gridsearch,0.9361307053019345,4585.293070121869
