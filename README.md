@@ -32,9 +32,14 @@ Evaluasi performa model dilakukan menggunakan dua metrik utama:
 ```plaintext
 forecasting-irradiance/
 │
-├── data/                  # Folder untuk dataset
-├── notebooks/             # Jupyter Notebooks untuk eksplorasi dan modeling
-├── models/                # File model yang telah dilatih (jika disimpan)
-├── results/               # Visualisasi dan hasil evaluasi
-├── README.md              # Dokumentasi proyek
-└── requirements.txt       # Daftar dependensi
+├── data/                      # Dataset dan hasil preprocessing
+├── models/                    # Model yang sudah dilatih (opsional)
+├── results/                   # Grafik hasil evaluasi dan visualisasi
+├── algorithms/                # Implementasi setiap algoritma dalam file terpisah
+│   ├── random_forest.py       # Random Forest Regressor
+│   ├── gradient_boosting.py   # Gradient Boosting Regressor
+│   └── xgboost_model.py       # XGBoost Regressor
+├── utils/                     # Fungsi bantu dan preprocessing
+├── README.md                  # Dokumentasi proyek
+└── requirements.txt           # Daftar dependensi proyek
+
